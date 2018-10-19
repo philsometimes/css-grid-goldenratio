@@ -1,0 +1,103 @@
+/* .golden > div {
+  border: 1px solid white;
+}
+.container > div {
+  border: 1px solid black;
+}
+
+body {
+  height: 100vh;
+  font: bold 14px Helvetica, sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+
+#one{
+  grid-column: 1;
+  grid-row:1;
+}
+#two{
+  grid-column: 2;
+  grid-row:1;
+}
+#three{
+  grid-column: 3;
+  grid-row:1;
+}
+#four{
+  grid-column: 1;
+  grid-row:2;
+}
+#five{
+  grid-column: 3;
+  grid-row:2;
+}
+#six{
+  grid-column: 1;
+  grid-row:3;
+}
+#seven{
+  grid-column: 2;
+  grid-row:3;
+}
+#eight{
+  grid-column: 3;
+  grid-row:3;
+}
+
+
+.golden {
+  grid-column: 2;
+  grid-row: 2;
+  --widthV: 50vw;
+  --phi: 1.61803399;
+  --heightV: calc(var(--widthV)/var(--phi));
+  width: var(--widthV);
+  height: var(--heightV);
+  color: #FFFFFF;
+
+  display: grid;
+  grid-template-columns: 61.8% 9.02% 5.58% 23.6%;
+  grid-template-rows: 61.8% 9.02% 5.58% 23.6%;
+  grid-template-areas:
+    "A B B B"
+    "A E F C"
+    "A E G C"
+    "A D D C";
+}
+
+
+#a {
+  grid-area: A;
+  background-color: #CC351F;
+}
+#b {
+  grid-area: B;
+  background-color: #EF9122;
+}
+#c {
+  grid-area: C;
+  background-color: #F8C000;
+}
+#d {
+  grid-area: D;
+  background-color: #A5C62C;
+}
+#e {
+  grid-area: E;
+  background-color: #00A14B;
+}
+#f {
+  grid-area: F;
+  background-color: #12CCA8;
+}
+#g {
+  grid-area: G;
+  background-color: #0095E5;
+} */
